@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+    <!-- bootstrap CSS CDN -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+
+    <title>MY PORTFOLIO</title>
+</head>
+
+<body>
+
+<!-- Navigation Bar -->
+<div class="navbar-container">
+
+    <div class="topnav">
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </div>
+    <div class="menu-icon-container">
+        <div class="menu-icon" onclick="toggleMenu()">☰</div>
+    </div>
+    <div class="navbar-menu">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#portfolio">Portfolio</a>
+        <a href="#contact">Contact</a>
+    </div>
+</div>
+    
+    <section id="home">
+    <div class="home-container">
+        <img class="profile-picture" src="./images/jsutinkarl.jpg" alt="Profile Picture">
+        <div class="name">
+            <h1>Justin Karl F. Baluyot</h1>
+            <h2>Front-end Developer</h2>
+            <div class="socials">
+                <a href="https://github.com/KarlBaluyot?fbclid=IwAR1rNIk8tiVNWHwxzLxxznIaiH3dSDdwVY5E17rN62NcfJQGTqMvdCrYHDM"
+                    target="_blank">
+                    <img class="social-icon" src="./images/github.png" alt="Github">
+                </a>
+                <a href="https://www.linkedin.com/in/justin-karl-baluyot-b2b86b238/?fbclid=IwAR3-Xz2iS1R5HbhmdyMdcZIJkS8VdQvfCCOLGndHUGyt83FV2jxEnLUf2es"
+                    target="_blank">
+                    <img class="social-icon" src="./images/linkin.png" alt="LinkedIn">
+                </a>
+            </div>
+        </div>
+        <div class="karl-container">
+            <div class="relative flex flex-row items-center xl:mt-5 sm:mt-10 z-40">
+                <div class="tech-icons transition flex justify-center gap-5">
+                    <div class="circle-container">
+                        <div class="circle">
+                            <img class="w-full h-full object-cover rounded-full"
+                                src="./images/png-transparent-html-logo-html5-badge-line-symbol-signage-removebg-preview.png"
+                                alt="Html">
+                        </div>
+                    </div>
+                    <div class="circle-container">
+                        <div class="circle">
+                            <img class="w-full h-full object-cover rounded-full" src="./images/93779_css3_512x512.png"
+                                alt="CSS">
+                        </div>
+                    </div>
+                    <div class="circle-container">
+                        <div class="circle">
+                            <img class="w-full h-full object-cover rounded-full" src="./images/5968238.png" alt="JS">
+                        </div>
+                    </div>
+                    <div class="circle-container">
+                        <div class="circle">
+                            <img class="w-full h-full object-cover rounded-full"
+                                src="./images/reactjs_logo_icon_206692.png" alt="React">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </section>
+
+
+
+
+
+    <section id="about">
+        <h1 class="about-title">ABOUT ME</h1>
+        <h2 class="job-title">Web Developer</h2>
+        <ul>
+            <div class="about-container">
+                <ul class="top">
+                    <p> As a dedicated and passionate learner in the field of development,
+                        I have an interest in creating interactive and user-focused web developer.
+                        I have built my foundation learning the fundamentals of HTML, CSS, and JavaScript to build
+                        visually appealing and responsive front-end interfaces.
+                        I am enthusiastic about contributing my skills to design user experiences while working
+                        collaboratively within a team-oriented setting.
+                    </p>
+                    <div class="IT-image-container">
+                        <div class="tin">
+                            <img class="IT-image" src="./images/SUB_CodingProgramming_Hero.jpg" alt="">
+                            <div class="justin">Glitch Code.</div>
+                        </div>
+                        <div class="tin">
+                            <img class="IT-image" src="./images/Coding-vs-programming.jpg" alt="">
+                            <div class="justin">Error. </div>
+                        </div>
+                        <div class="tin">
+                            <img class="IT-image" src="./images/programming evolution.jpg" alt="">
+                            <div class="justin">Programming.</div>
+                        </div>
+                    </div>
+                </ul>
+            </div>
+        </ul>
+    </section>
+
+
+
+    <section id="skills">
+        <h1 class="skills-title">SKILLS</h1>
+        <div class="skills-container">
+            <div
+                class="bg-slate-900 sm:grid-cols-3 grid xl:grid-cols-4 justify-items-center content-center p-5 gap-2 rounded-md">
+                <div class="flex flex-col items-center icon">
+                    <img class="my-custom-width my-custom-height" src="./svg/react.svg" alt="React">
+                    <span class="text-white">React</span>
+                </div>
+                <div class="flex flex-col items-center">
+                    <img class="my-custom-width my-custom-height icon" src="./svg/python.svg" alt="Python">
+                    <span class="text-white">Python</span>
+                </div>
+                <div class="flex flex-col items-center">
+                    <img class="my-custom-width my-custom-height icon" src="./svg/tailwind-css.svg" alt="Tailwind">
+                    <span class="text-white">Tailwind</span>
+                </div>
+                <div class="flex flex-col items-center">
+                    <img class="my-custom-width my-custom-height icon" src="./svg/javascript.svg" alt="Javascript">
+                    <span class="text-white">Javascript</span>
+                </div>
+                <div class="flex flex-col items-center">
+                    <img class="my-custom-width my-custom-height icon " src="./svg/typescript.svg" alt="Typscript">
+                    <span class="text-white">Typscript</span>
+                </div>
+                <div class="flex flex-col items-center">
+                    <img class="my-custom-width my-custom-height icon" src="./svg/bootstrap.svg" alt="Bootstrap">
+                    <span class="text-white">Bootstrap</span>
+                </div>
+                <div class="flex flex-col items-center">
+                    <img class="my-custom-width my-custom-height icon" src="./svg/html.svg" alt="HTML">
+                    <span class="text-white">HTML</span>
+                </div>
+                <div class="flex flex-col items-center">
+                    <img class="my-custom-width my-custom-height icon" src="./svg/css.svg" alt="CSS">
+                    <span class="text-white">CSS</span>
+                </div>
+                <div class="flex flex-col items-center">
+                    <img class="my-custom-width my-custom-height icon" src="./svg/java.svg" alt="Java">
+                    <span class="text-white">Java</span>
+                </div>
+                <div class="flex flex-col items-center">
+                    <img class="my-custom-width my-custom-height icon" src="./svg/mysql.svg" alt="mySQL">
+                    <span class="text-white">mySQL</span>
+                </div>
+                <div class="flex flex-col items-center">
+                    <img class="my-custom-width my-custom-height icon" src="./svg/mongodb.svg" alt="MongoDB">
+                    <span class="text-white">MongoDB</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <section id="portfolio">
+
+        <h1 class="portfolio-title">PORTFOLIO</h1>
+        <div class="content-container">
+            <div class="one">
+                <div class="img">
+                    <img class="It-image" src="./images/Screenshot 2023-09-09 081644.png" alt="">
+
+                </div>
+                <div class="description">
+                    <p>I created a java project using CRUD, XML, DTD
+                        <br> where it displays and allows editing, updating, deleting,
+                        <br>creating and reading data.
+                    </p>
+                </div>
+            </div>
+
+            <div class="two">
+                <div class="description">
+                    <p>I created a java project using CRUD, XML, DTD
+                        <br> where it displays and allows editing, updating, deleting,
+                        <br>creating and reading data.
+                    </p>
+                </div>
+                <div class="img">
+                    <img class="BS-image" src="./images/Screenshot 2023-09-09 080726.png" alt="">
+                </div>
+            </div>
+            <div class="three">
+                <div class="img">
+                    <iframe width="400" height="230" src="https://www.youtube.com/embed/SLC4w8cm71A" frameborder="0"
+                        allowfullscreen></iframe>
+                </div>
+                <div class="description">
+                    <p>I successfully completed our project on Noli Me Tangere
+                        <br> and edited it using Adobe Premier Pro the intro and
+                        <br>Transition, while utilizing Capcut for adding filters and
+                        <br>translating text.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+
+
+    </section>
+
+
+    <!--
+        <div class="portfolio-container">
+            <h1 class="portfolio-title">PORTFOLIO</h1>
+            <div class="mid">
+                <p>Created a project using Python that incorporate
+                    <br> four principles of Object-Oriented Programming and displays.
+                </p>
+
+                <div class="lark">
+                    <img class="BS-image" src="./images/Screenshot 2023-09-09 080726.png" alt="">
+                </div>
+            </div>
+        </div>
+            <div class="bot-container">
+                <div class="bot">
+                    <p>I successfully completed our project on Noli Me Tangere
+                        <br> and edited it using Adobe Premier Pro the intro and
+                        <br>Transition, while utilizing Capcut for adding filters and
+                        <br>translating text.
+                    </p>
+                </div>
+                <div class="balu">
+                    <iframe width="400" height="230" src="https://www.youtube.com/embed/SLC4w8cm71A" frameborder="0"
+                        allowfullscreen></iframe>
+                </div>
+            </div>
+
+            <div class="jungle">
+                <p>I created a java project using CRUD, XML, DTD
+                    <br> where it displays and allows editing, updating, deleting,
+                    <br>creating and reading data.
+                </p>
+            </div>
+            <div class="tinar">
+                <img class="It-image" src="./images/Screenshot 2023-09-09 081644.png" alt="">
+            </div> -->
+
+
+
+
+    <section id="contact">
+        <h1 class="contact-title">CONTACT</h1>
+        <h2 class="contacts-title">SEND MESSAGE</h2>
+        <div class="contact-message">
+            <p>Want to get in Touch or Talk about a Project?
+                <br>Feel Free to Contact me via Email or you can Call me.
+            </p>
+
+
+            <div class="contact-box">
+                <div class="contact-item">
+                    <div class="custom-icon icon" title="Email">&#9993;</div>
+                    <div class="contact-info">
+                        <a href="mailto:justinkarlbaluyot27@gmail.com" id="email">justinkarlbaluyot27@gmail.com</a>
+                    </div>
+                </div>
+                <div class="contact-item">
+                    <div class="custom-icon icon" title="Contact">&#128222;</div>
+                    <div class="contact-info">
+                        <a href="tel:+09610090008">+09610090008</a>
+                    </div>
+                </div>
+                <div class="contact-item">
+                    <div class="custom-icon icon" title="Location">&#127757;</div>
+                    <div class="contact-info">
+                        Botolan, Zambales
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="justin.js"></script>
+</body>
+
+</html>
